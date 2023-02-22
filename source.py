@@ -29,7 +29,7 @@ for username in users:
         driver.find_element("id","password").send_keys(chiavi)
         # finding click button by find_element by name and click to login
         driver.find_element("name","commit").click()
-        sleep(10)
+        sleep(5)
 
 
 sleep(100)
