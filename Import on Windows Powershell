@@ -4,7 +4,7 @@ C:\path\python.exe -m pip install selenium
 
 
 
-
+#offline login
 
 (C:\path\python.exe -m pip install beautifulsoup4)
 
