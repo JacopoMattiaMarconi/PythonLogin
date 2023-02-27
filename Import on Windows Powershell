@@ -5,7 +5,6 @@ C:\path\python.exe -m pip install selenium
 
 
 
-Per Synology:
 
 (C:\path\python.exe -m pip install beautifulsoup4)
 
@@ -14,8 +13,8 @@ from bs4 import BeautifulSoup
 
 # Replace the following variables with your own values
 base_url = 'http://192.168.10.25'
-username = 'amministratore'
-password = 'repREP123!'
+username = 'admin'
+password = 'p4ssw0rd'
 
 # Get the login page and extract the viewstate and viewstategenerator values
 login_url = f'{base_url}/webman/login.cgi'
