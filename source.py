@@ -27,6 +27,7 @@ for username in users:
         driver.find_element("id","password").send_keys(chiavi)
         # finding click button by find_element by name and click to login
         driver.find_element("name","commit").click()
+        #try to increase the number of attempts before IP blocking
         sleep(5)
 
 #avoid automatic closing of web page
