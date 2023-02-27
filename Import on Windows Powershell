@@ -12,7 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Replace the following variables with your own values
-base_url = 'http://192.168.10.25'
+base_url = 'http://192.168.10.26'
 username = 'admin'
 password = 'p4ssw0rd'
 
