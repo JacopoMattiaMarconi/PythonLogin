@@ -13,7 +13,7 @@ driver = webdriver.Chrome(path)
 url = "https://github.com/login"
 # Opening the URL
 driver.get(url)
-#your username and password to login into GitHub account
+#your username and password to login
 with open('username.txt', 'r') as file1:
     # Leggi tutte le parole nel file e mettile in una lista
     users = file1.read().split()
